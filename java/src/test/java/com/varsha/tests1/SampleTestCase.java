@@ -28,6 +28,7 @@ public class SampleTestCase {
     }
 
     @Test
+    @Ignore
     public void testFlakyFive() {
         Assert.assertTrue(new Random().nextBoolean());
     }
